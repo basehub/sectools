@@ -408,6 +408,7 @@
                 <sw_id>0x000000000000000C</sw_id>
                 <app_id>0x6156e979aa6e61bc</app_id>
             </general_properties_overrides>
+            <pil_split>true</pil_split>
         </image>
 
         <image sign_id="efs_tar" name="fs_image.tar.gz.mbn" image_type="mbn_40b">
