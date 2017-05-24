@@ -343,6 +343,15 @@
             <meta_build_location>$(FILE_TYPE:file_ref, ATTR:pil_split, VAR:fingerprint64)</meta_build_location>
         </image>
 
+        <image sign_id="fingerpr" name="fingerpr.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x000000000000000C</sw_id>
+                <app_id>0x0000000000000888</app_id>
+            </general_properties_overrides>
+            <pil_split>true</pil_split>
+            <meta_build_location>$(FILE_TYPE:file_ref, ATTR:pil_split, VAR:fingerpr)</meta_build_location>
+        </image>
+
         <image sign_id="dhsecapp" name="dhsecapp.mbn" image_type="elf_has_ht">
             <general_properties_overrides>
                 <sw_id>0x000000000000000C</sw_id>
@@ -361,6 +370,15 @@
             <meta_build_location>$(FILE_TYPE:file_ref, ATTR:pil_split, VAR:qmpsecap)</meta_build_location>
         </image>
 
+        <image sign_id="fngap64" name="fngap64.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x000000000000000C</sw_id>
+                <app_id>0x0000000000112345</app_id>
+            </general_properties_overrides>
+            <pil_split>true</pil_split>
+            <meta_build_location>$(FILE_TYPE:file_ref, ATTR:pil_split, VAR:fngap64)</meta_build_location>
+        </image>
+
         <image sign_id="macchiato_sample" name="macchiato_sample.mbn" image_type="elf_has_ht">
             <general_properties_overrides>
                 <sw_id>0x000000000000000C</sw_id>
@@ -376,6 +394,20 @@
             </general_properties_overrides>
             <pil_split>true</pil_split>
             <meta_build_location>$(FILE_TYPE:file_ref, ATTR:pil_split, VAR:cppf)</meta_build_location>
+        </image>
+
+        <image sign_id="securemm" name="securemm.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x000000000000000C</sw_id>
+                <app_id>0x0000000000000FFF</app_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="gptest" name="gptest.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x000000000000000C</sw_id>
+                <app_id>0x6156e979aa6e61bc</app_id>
+            </general_properties_overrides>
         </image>
 
         <image sign_id="efs_tar" name="fs_image.tar.gz.mbn" image_type="mbn_40b">
