@@ -401,6 +401,7 @@
                 <sw_id>0x000000000000000C</sw_id>
                 <app_id>0x0000000000000FFF</app_id>
             </general_properties_overrides>
+            <pil_split>true</pil_split>
         </image>
 
         <image sign_id="gptest" name="gptest.mbn" image_type="elf_has_ht">
