@@ -22,10 +22,10 @@
         <revision>2</revision> <!--DebugPolicy V2-->
 
         <flags>
-            <flag> <bit_pos>0</bit_pos> <value>0</value> </flag> <!--DP_ENABLE_ONLINE_CRASH_DUMPS-->
-            <flag> <bit_pos>1</bit_pos> <value>0</value> </flag> <!--DP_ENABLE_OFFLINE_CRASH_DUMPS-->
+            <flag> <bit_pos>0</bit_pos> <value>1</value> </flag> <!--DP_ENABLE_ONLINE_CRASH_DUMPS-->
+            <flag> <bit_pos>1</bit_pos> <value>1</value> </flag> <!--DP_ENABLE_OFFLINE_CRASH_DUMPS-->
             <flag> <bit_pos>2</bit_pos> <value>0</value> </flag> <!--DP_ENABLE_JTAG-->
-            <flag> <bit_pos>3</bit_pos> <value>0</value> </flag> <!--DP_ENABLE_LOGS-->
+            <flag> <bit_pos>3</bit_pos> <value>1</value> </flag> <!--DP_ENABLE_LOGS-->
         </flags>
 
         <image_bit_map> <!--Range: 0 to 32-->
@@ -39,7 +39,7 @@
         </root_cert_hash_list>
 
         <serial_num_list> <!--Range: 1 to 200-->
-            <serial_num>00000000</serial_num>
+            <serial_num>e68b51aa</serial_num>
         </serial_num_list>
 
         <elf>

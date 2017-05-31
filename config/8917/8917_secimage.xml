@@ -429,6 +429,20 @@
                 <sw_id>0x0000000000000002</sw_id>
             </general_properties_overrides>
         </image>
+
+         <image sign_id="dbgp_ap" image_type="elf_has_ht" output_file_name="dp_AP_signed.mbn" cert_config="qc_presigned_certs">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000200</sw_id>
+            </general_properties_overrides>
+            <meta_build_location>NA</meta_build_location>
+        </image>
+
+        <image sign_id="dbgp_msa" image_type="elf_has_ht" output_file_name="dp_MSA_signed.mbn" cert_config="qc_presigned_certs">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000200</sw_id>
+            </general_properties_overrides>
+            <meta_build_location>NA</meta_build_location>
+        </image>
     </images_list>
 
 </tns:secimage>
