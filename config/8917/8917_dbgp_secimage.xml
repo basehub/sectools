@@ -24,18 +24,18 @@
     <general_properties>
         <selected_signer>local</selected_signer>
         <selected_encryptor></selected_encryptor>
-        <selected_cert_config>qc_presigned_certs</selected_cert_config>
+        <selected_cert_config>zy_8917_presigned_certs</selected_cert_config>
         <cass_capability>secboot_sha2_root</cass_capability>
 
         <key_size>2048</key_size>
-        <exponent>65537</exponent>
+        <exponent>3</exponent>
 
         <mrc_index>0</mrc_index>
         <num_root_certs>1</num_root_certs>
 
         <msm_part>0x000560E1</msm_part>
-        <oem_id>0x0000</oem_id>
-        <model_id>0x0000</model_id>
+        <oem_id>0x42f9</oem_id>
+        <model_id>0x8917</model_id>
         <debug>0x0000000000000002</debug>
 
         <max_cert_size>2048</max_cert_size>
