@@ -404,20 +404,6 @@
             <pil_split>true</pil_split>
         </image>
 
-        <image sign_id="lksecapp" name="lksecapp.mbn" image_type="elf_has_ht">
-            <general_properties_overrides>
-                <sw_id>0x000000000000000C</sw_id>
-                <app_id>0x00000000000001887</app_id>
-            </general_properties_overrides>
-        </image>
-
-        <image sign_id="lksecapp64" name="lksecapp64.mbn" image_type="elf_has_ht">
-            <general_properties_overrides>
-                <sw_id>0x000000000000000C</sw_id>
-                <app_id>0x00000000000641887</app_id>
-            </general_properties_overrides>
-        </image>
-
         <image sign_id="gptest" name="gptest.mbn" image_type="elf_has_ht">
             <general_properties_overrides>
                 <sw_id>0x000000000000000C</sw_id>
