@@ -25,20 +25,20 @@
     </secdat>
 
     <module id="SECURITY_CONTROL_CORE">
-        <entry ignore="false">
+        <entry ignore="true">
             <description>contains the OEM public key hash as set by OEM</description>
             <name>root_cert_hash</name>
             <value>0000000000000000000000000000000000000000000000000000000000000000</value>
         </entry>
-        <entry ignore="true">
+        <entry ignore="false">
             <description>SHA256 signed root cert to generate root hash</description>
             <name>root_cert_file</name>
-            <value>./../../resources/testpki/qpsa_rootca.cer</value>
+            <value>./../../resources/keys_fuse/rootca.cer</value>
         </entry>
         <entry ignore="false">
             <description>PK Hash is in Fuse for SEC_BOOT1 : Apps</description>
             <name>SEC_BOOT1_PK_Hash_in_Fuse</name>
-            <value>false</value>
+            <value>true</value>
         </entry>
         <entry ignore="false">
             <description>If PK Hash in Fuse is 0, then this index selects which of 16 keys in ROM to use</description>
@@ -53,7 +53,7 @@
         <entry ignore="false">
             <description>PK Hash is in Fuse for SEC_BOOT2 : MBA</description>
             <name>SEC_BOOT2_PK_Hash_in_Fuse</name>
-            <value>false</value>
+            <value>true</value>
         </entry>
         <entry ignore="false">
             <description>If PK Hash in Fuse is 0, then this index selects which of 16 keys in ROM to use</description>
@@ -68,7 +68,7 @@
         <entry ignore="false">
             <description>PK Hash is in Fuse for SEC_BOOT3 : MPSS</description>
             <name>SEC_BOOT3_PK_Hash_in_Fuse</name>
-            <value>false</value>
+            <value>true</value>
         </entry>
         <entry ignore="false">
             <description>If PK Hash in Fuse is 0, then this index selects which of 16 keys in ROM to use</description>
@@ -83,12 +83,12 @@
         <entry ignore="false">
             <description>The OEM hardware ID</description>
             <name>oem_hw_id</name>
-            <value>0x0000</value>
+            <value>0x42f9</value>
         </entry>
         <entry ignore="false">
             <description>The OEM product ID</description>
             <name>oem_product_id</name>
-            <value>0x0000</value>
+            <value>0x8917</value>
         </entry>
         <entry ignore="false">
             <description>used to configure the number of root certificates hashed into OEM_PK_HASH</description>
